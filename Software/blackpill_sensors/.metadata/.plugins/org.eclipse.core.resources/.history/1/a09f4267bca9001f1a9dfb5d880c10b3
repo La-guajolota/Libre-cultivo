@@ -1,0 +1,83 @@
+/*
+* utils.h
+*
+*  Created on: Oct 4, 2024
+*      Author: Adrián Silva Palafox
+*      Description: Header file for utility functions and constants used in the embedded system.
+*                   This file contains declarations for sensor and actuator topics, a
+*                   microsecond delay function, and a function for publishing messages over UART.
+*                   It also includes the necessary external definitions for hardware peripherals.
+*/
+
+#ifndef INC_UTILS_H_
+#define INC_UTILS_H_
+
+// INCLUDES
+#include "stm32f4xx_hal.h"  // HAL library for STM32F4
+#include <stdint.h>          // Standard integer types
+#include <stdio.h>           // Standard input/output for sprintf
+#include <string.h>          // Standard string handling functions (strlen, etc.)
+#include <stdbool.h>
+#include <stdlib.h>
+
+// --------------------
+// OPERATION MODE MACROS
+// --------------------
+// Uncomment the macro corresponding to the intended system mode:
+// --------------------
+#define DAQ       // Library running on a Data Acquisition device
+//#define ACT      // Library running on an Actuator Control system
+
+typedef int8_t ERROR_CODE;
+// --------------------
+// ERROR CONTROL MACROS
+// --------------------
+#define SUCCESS_           0   // Operation successful
+#define ERROR_            -1   // Generic error code
+#define CHAR_NOT_FOUND_   -2   // Specified character not found in string
+#define UNKNOWN_TOPIC     -3   // Unrecognized topic for this system
+
+
+// MQTT Topics Definitions
+/* Sensor Topics:
+* These topics represent the MQTT communication topics for sensor data collection.
+* The topics correspond to various sensors such as temperature, humidity, pH, TDS, and EC.
+*/
+extern const char* TOPIC_WATER_TEMPERATURE;  // Topic for water temperature sensor
+extern const char* TOPIC_AMBIENT_TEMPERATURE; // Topic for ambient temperature sensor
+extern const char* TOPIC_AMBIENT_HUMIDITY;   // Topic for ambient humidity sensor
+extern const char* TOPIC_WATER_PH;           // Topic for water pH sensor
+extern const char* TOPIC_WATER_TDS;          // Topic for water TDS (Total Dissolved Solids) sensor
+extern const char* TOPIC_WATER_EC;           // Topic for water EC (Electrical Conductivity) sensor
+
+/* Actuator Topics:
+* These topics represent the MQTT communication topics for controlling actuators.
+* The actuators include systems like watering, dosing pumps, lights, fans, and a humidifier.
+*/
+extern const char* TOPIC_WATERING;           // Topic for controlling watering system
+extern const char* TOPIC_DOSE_PUMP0;         // Topic for controlling dosing pump 0
+extern const char* TOPIC_DOSE_PUMP1;         // Topic for controlling dosing pump 1
+extern const char* TOPIC_DOSE_PUMP2;         // Topic for controlling dosing pump 2
+extern const char* TOPIC_LIGHT_CONTROL;      // Topic for controlling light system
+extern const char* TOPIC_FAN_CONTROL0;       // Topic for controlling fan 0
+extern const char* TOPIC_FAN_CONTROL1;       // Topic for controlling fan 1
+extern const char* TOPIC_HUMIDIFIER;         // Topic for controlling humidifier
+
+// List of valid topics for sensor and actuator communication
+extern char *valid_topics[];      // List of valid MQTT topics (for both sensors and actuators)
+extern const int num_valid_topics; // Number of valid topics
+
+// List of HW peripherals used
+extern ADC_HandleTypeDef hadc1;
+extern TIM_HandleTypeDef htim11;
+extern UART_HandleTypeDef huart1;
+
+// ------------------------
+// FUNCTION PROTOTYPES
+// ------------------------
+void delay_us(uint16_t us);    // Function to delay execution for specified microseconds
+void publishTopic(const char* topic, float val); // Function to publish a message with topic and value
+ERROR_CODE reciveTopic(char *msg, float *val);  // Function to receive a message with topic and value
+ERROR_CODE identifyTopic(const char *topic);    // Function to identify a valid topic
+
+#endif /* INC_UTILS_H_ */

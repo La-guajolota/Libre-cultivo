@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LibreCultivo0/Core/Src/utilsActuators&apos; to &apos;utilsActuators.c&apos;" description="Rename resource &apos;utilsActuators&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/utilsActuators" name="utilsActuators.c" stamp="1728537327771" updateReferences="true"/>
+</session>

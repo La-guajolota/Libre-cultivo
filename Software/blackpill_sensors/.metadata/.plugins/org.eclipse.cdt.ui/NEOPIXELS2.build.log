@@ -1,0 +1,10 @@
+12:53:06 **** Build of configuration Debug for project NEOPIXELS2 ****
+make -j12 all 
+arm-none-eabi-size  NEOPIXELS2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10856	     12	   1660	  12528	   30f0	NEOPIXELS2.elf
+Finished building: default.size.stdout
+ 
+
+12:53:06 Build Finished. 0 errors, 0 warnings. (took 204ms)
+

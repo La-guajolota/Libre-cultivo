@@ -1,0 +1,49 @@
+20:56:54 **** Incremental Build of configuration Debug for project hydroponics_actuators ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:161:13: error: invalid storage class for function 'MX_I2C1_Init'
+  161 | static void MX_I2C1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:195:13: error: invalid storage class for function 'MX_TIM1_Init'
+  195 | static void MX_TIM1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:269:13: error: invalid storage class for function 'MX_GPIO_Init'
+  269 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:301:1: error: expected declaration or statement at end of input
+  301 | }
+      | ^
+../Core/Src/main.c:99:12: warning: unused variable 'GrowLedDuty' [-Wunused-variable]
+   99 |   uint32_t GrowLedDuty = 0;
+      |            ^~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:53:13: warning: 'MX_GPIO_Init' used but never defined
+   53 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:54:13: warning: 'MX_I2C1_Init' used but never defined
+   54 | static void MX_I2C1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:55:13: warning: 'MX_TIM1_Init' used but never defined
+   55 | static void MX_TIM1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:292:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  292 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:269:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  269 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:195:13: warning: 'MX_TIM1_Init' defined but not used [-Wunused-function]
+  195 | static void MX_TIM1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:161:13: warning: 'MX_I2C1_Init' defined but not used [-Wunused-function]
+  161 | static void MX_I2C1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:117:6: warning: 'SystemClock_Config' defined but not used [-Wunused-function]
+  117 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+20:56:55 Build Failed. 5 errors, 9 warnings. (took 271ms)
+

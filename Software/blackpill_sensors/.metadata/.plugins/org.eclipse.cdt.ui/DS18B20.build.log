@@ -1,0 +1,28 @@
+09:39:50 **** Incremental Build of configuration Debug for project DS18B20 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/DS18B20.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/DS18B20.d" -MT"Core/Src/DS18B20.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/DS18B20.o"
+../Core/Src/DS18B20.c: In function 'DS18B20_Start':
+../Core/Src/DS18B20.c:35:9: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+   35 |         delay (480);   // delay according to datasheet
+      |         ^~~~~
+../Core/Src/DS18B20.c: In function 'read':
+../Core/Src/DS18B20.c:79:9: warning: implicit declaration of function 'gpio_set_input' [-Wimplicit-function-declaration]
+   79 |         gpio_set_input ();
+      |         ^~~~~~~~~~~~~~
+../Core/Src/DS18B20.c:83:17: warning: implicit declaration of function 'gpio_set_output' [-Wimplicit-function-declaration]
+   83 |                 gpio_set_output ();   // set as output
+      |                 ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "DS18B20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\Hidroponia_colectiva\Software\blackpill_sensors\DS18B20\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DS18B20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DS18B20.elf
+ 
+arm-none-eabi-size  DS18B20.elf 
+arm-none-eabi-objdump -h -S DS18B20.elf  > "DS18B20.list"
+   text	   data	    bss	    dec	    hex	filename
+   8032	     12	   1716	   9760	   2620	DS18B20.elf
+Finished building: default.size.stdout
+ 
+Finished building: DS18B20.list
+ 
+
+09:39:51 Build Finished. 0 errors, 3 warnings. (took 1s.376ms)
+

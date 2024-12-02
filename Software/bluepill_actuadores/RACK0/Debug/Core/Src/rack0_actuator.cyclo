@@ -1,0 +1,7 @@
+../Core/Src/rack0_actuator.c:25:13:Rack0_ValidateID	1
+../Core/Src/rack0_actuator.c:33:6:Rack0_Init	2
+../Core/Src/rack0_actuator.c:43:6:Rack0_SetActuatorState	4
+../Core/Src/rack0_actuator.c:60:6:Rack0_SetPWMDuty	3
+../Core/Src/rack0_actuator.c:69:6:Rack0_SetMode	3
+../Core/Src/rack0_actuator.c:78:6:Rack0_GetActuatorState	2
+../Core/Src/rack0_actuator.c:86:9:Rack0_GetPWMDuty	2

@@ -1,0 +1,48 @@
+/*
+ * DS18B20.h
+ *
+ *  Created on: Nov 4, 2024
+ *      Author: Adrián Silva Palafox
+ */
+
+#ifndef INC_DS18B20_H_
+#define INC_DS18B20_H_
+
+//Inlcudes
+#include <stdint.h>
+#include "stm32f4xx_hal.h"
+
+#include "utils.h"
+
+/***************************
+ * DEFINES
+ *************************/
+#define DS18B20_PORT GPIOA
+#define DS18B20_PIN GPIO_PIN_3
+
+
+/*
+ * Datatypes
+ */
+
+
+/***********************
+ * Functions prototypes
+ ***********************/
+
+/**
+ *
+ */
+uint8_t DS18B20_Start (void);
+
+/**
+ *
+ */
+void DS18B20_Write (uint8_t data);
+
+/**
+ *
+ */
+uint8_t read (void);
+
+#endif /* INC_DS18B20_H_ */

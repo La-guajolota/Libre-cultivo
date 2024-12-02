@@ -1,0 +1,3 @@
+additional_options=--compile-commands-dir\=E\:\\Hidroponia_colectiva\\Software\\espressif\\generic_gpio\\build
+eclipse.preferences.version=1
+query_driver=C\:\\Espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20230928\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe

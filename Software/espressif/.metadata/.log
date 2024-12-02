@@ -1,0 +1,269 @@
+!SESSION 2024-09-24 23:29:36.258 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-09-24 23:30:33.405
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-24 23:30:33.405
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adria'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-09-24 23:30:33.406
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-09-24 23:30:33.408
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-09-24 23:30:33.408
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:30:35.011
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:30:35.011
+!MESSAGE idf_tools.py path: null/tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:30:35.012
+!MESSAGE idf_tools.py path doesn't exist
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:30:35.012
+!MESSAGE [C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\mingw64\bin;C:\Users\adria\AppData\Local\Programs\Python\Python310;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\adria\AppData\Local\Programs\Python\Python310\;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin]
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:30:36.486
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/3.0.0/
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:30:36.550
+!MESSAGE 
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:30:36.552
+!MESSAGE Executing C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_tools.py install all
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:30:36.552
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=LAPTOP, PROCESSOR_LEVEL=25, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, NVIDIAWHITELISTED=0x01, __COMPAT_LAYER=DetectorsAppHealth, PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, VXIPNPPATH=C:\Program Files (x86)\IVI Foundation\VISA\, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, IVIROOTDIR64=C:\Program Files\IVI Foundation\IVI\, USERNAME=adria, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, VXIPNPPATH64=C:\Program Files\IVI Foundation\VISA\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\adria\OneDrive, NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\, SHIM_MCCOMPAT=0x810000001, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\adria, PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD, IVIROOTDIR32=C:\Program Files (x86)\IVI Foundation\IVI\, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, OneDriveCommercial=C:\Users\adria\OneDrive - Universidad La Salle Bajío, LOCALAPPDATA=C:\Users\adria\AppData\Local, NIDAQmxSwitchDir=C:\Program Files (x86)\National Instruments\NI-DAQ\Switch\, USERDOMAIN=LAPTOP, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\adria\OneDrive - Universidad La Salle Bajío, APPDATA=C:\Users\adria\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\mingw64\bin;C:\Users\adria\AppData\Local\Programs\Python\Python310;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\adria\AppData\Local\Programs\Python\Python310\;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin, OS=Windows_NT, COMPUTERNAME=LAPTOP, PROCESSOR_REVISION=5000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\adria\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\adria, TMP=C:\Users\adria\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:31:55.934
+!MESSAGE Executing C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_tools.py install-python-env
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:31:56.727
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=LAPTOP, PROCESSOR_LEVEL=25, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, NVIDIAWHITELISTED=0x01, __COMPAT_LAYER=DetectorsAppHealth, PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, VXIPNPPATH=C:\Program Files (x86)\IVI Foundation\VISA\, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, IVIROOTDIR64=C:\Program Files\IVI Foundation\IVI\, USERNAME=adria, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, VXIPNPPATH64=C:\Program Files\IVI Foundation\VISA\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\adria\OneDrive, NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\, SHIM_MCCOMPAT=0x810000001, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\adria, PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD, IVIROOTDIR32=C:\Program Files (x86)\IVI Foundation\IVI\, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, OneDriveCommercial=C:\Users\adria\OneDrive - Universidad La Salle Bajío, LOCALAPPDATA=C:\Users\adria\AppData\Local, NIDAQmxSwitchDir=C:\Program Files (x86)\National Instruments\NI-DAQ\Switch\, USERDOMAIN=LAPTOP, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\adria\OneDrive - Universidad La Salle Bajío, APPDATA=C:\Users\adria\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\mingw64\bin;C:\Users\adria\AppData\Local\Programs\Python\Python310;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\adria\AppData\Local\Programs\Python\Python310\;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin, OS=Windows_NT, COMPUTERNAME=LAPTOP, PROCESSOR_REVISION=5000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\adria\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\adria, TMP=C:\Users\adria\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:12.036
+!MESSAGE Executing C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_tools.py export --format=key-value
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:13.967
+!MESSAGE Key: OPENOCD_SCRIPTS Value: C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:13.968
+!MESSAGE Key: IDF_CCACHE_ENABLE Value: 1
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:13.968
+!MESSAGE Key: ESP_ROM_ELF_DIR Value: C:\Espressif\tools\esp-rom-elfs\20230320\
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:13.969
+!MESSAGE Key: IDF_PYTHON_ENV_PATH Value: C:\Espressif\python_env\idf5.2_py3.11_env
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:13.969
+!MESSAGE Key: ESP_IDF_VERSION Value: 5.2
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:13.969
+!MESSAGE Key: PATH Value: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:13.969
+!MESSAGE Key: IDF_DEACTIVATE_FILE_PATH Value: C:\Users\adria\AppData\Local\Temp\tmp7lw0zhk2idf_2640
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:14.033
+!MESSAGE Executing C:\Espressif\python_env\idf5.2_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py --list-targets
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:14.033
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=LAPTOP, PROCESSOR_LEVEL=25, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, NVIDIAWHITELISTED=0x01, __COMPAT_LAYER=DetectorsAppHealth, PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, VXIPNPPATH=C:\Program Files (x86)\IVI Foundation\VISA\, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, IVIROOTDIR64=C:\Program Files\IVI Foundation\IVI\, USERNAME=adria, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, VXIPNPPATH64=C:\Program Files\IVI Foundation\VISA\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\adria\OneDrive, NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\, SHIM_MCCOMPAT=0x810000001, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\adria, PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD, IVIROOTDIR32=C:\Program Files (x86)\IVI Foundation\IVI\, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, OneDriveCommercial=C:\Users\adria\OneDrive - Universidad La Salle Bajío, LOCALAPPDATA=C:\Users\adria\AppData\Local, NIDAQmxSwitchDir=C:\Program Files (x86)\National Instruments\NI-DAQ\Switch\, USERDOMAIN=LAPTOP, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\adria\OneDrive - Universidad La Salle Bajío, APPDATA=C:\Users\adria\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\mingw64\bin;C:\Users\adria\AppData\Local\Programs\Python\Python310;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\adria\AppData\Local\Programs\Python\Python310\;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin, OS=Windows_NT, COMPUTERNAME=LAPTOP, PROCESSOR_REVISION=5000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\adria\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\adria, TMP=C:\Users\adria\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:15.253
+!MESSAGE Executing C:\Espressif\python_env\idf5.2_py3.11_env/Scripts/python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:15.253
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=LAPTOP, PROCESSOR_LEVEL=25, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, NVIDIAWHITELISTED=0x01, __COMPAT_LAYER=DetectorsAppHealth, PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, VXIPNPPATH=C:\Program Files (x86)\IVI Foundation\VISA\, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, IVIROOTDIR64=C:\Program Files\IVI Foundation\IVI\, USERNAME=adria, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, VXIPNPPATH64=C:\Program Files\IVI Foundation\VISA\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\adria\OneDrive, NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\, SHIM_MCCOMPAT=0x810000001, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\adria, PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD, IVIROOTDIR32=C:\Program Files (x86)\IVI Foundation\IVI\, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, OneDriveCommercial=C:\Users\adria\OneDrive - Universidad La Salle Bajío, LOCALAPPDATA=C:\Users\adria\AppData\Local, NIDAQmxSwitchDir=C:\Program Files (x86)\National Instruments\NI-DAQ\Switch\, USERDOMAIN=LAPTOP, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\adria\OneDrive - Universidad La Salle Bajío, APPDATA=C:\Users\adria\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\mingw64\bin;C:\Users\adria\AppData\Local\Programs\Python\Python310;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\adria\AppData\Local\Programs\Python\Python310\;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin, OS=Windows_NT, COMPUTERNAME=LAPTOP, PROCESSOR_REVISION=5000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\adria\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\adria, TMP=C:\Users\adria\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:16.725
+!MESSAGE Executing C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf_tools.py export --format=key-value
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.131
+!MESSAGE Key: OPENOCD_SCRIPTS Value: C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.132
+!MESSAGE Key: IDF_CCACHE_ENABLE Value: 1
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.132
+!MESSAGE Key: ESP_ROM_ELF_DIR Value: C:\Espressif\tools\esp-rom-elfs\20230320\
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.132
+!MESSAGE Key: IDF_PYTHON_ENV_PATH Value: C:\Espressif\python_env\idf5.2_py3.11_env
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.132
+!MESSAGE Key: ESP_IDF_VERSION Value: 5.2
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.132
+!MESSAGE Key: PATH Value: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.133
+!MESSAGE Key: IDF_DEACTIVATE_FILE_PATH Value: C:\Users\adria\AppData\Local\Temp\tmpj6uckzjoidf_14044
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.133
+!MESSAGE Updating environment variables with key:ESP_IDF_VERSION value:5.2
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.135
+!MESSAGE Updating environment variables with key:GIT_PATH value:C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.135
+!MESSAGE Updating environment variables with key:IDF_COMPONENT_MANAGER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.137
+!MESSAGE Updating environment variables with key:IDF_MAINTAINER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.137
+!MESSAGE Updating environment variables with key:IDF_PATH value:C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.138
+!MESSAGE Updating environment variables with key:IDF_PYTHON_ENV_PATH value:C:\Espressif\python_env\idf5.2_py3.11_env
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.139
+!MESSAGE Updating environment variables with key:OPENOCD_SCRIPTS value:C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.139
+!MESSAGE Updating environment variables with key:PATH value:C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\mingw64\bin;C:\Users\adria\AppData\Local\Programs\Python\Python310;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\adria\AppData\Local\Programs\Python\Python310\;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.140
+!MESSAGE Updating environment variables with key:PYTHON_EXE_PATH value:C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.141
+!MESSAGE Updating environment variables with key:IDF_COMPONENT_MANAGER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.141
+!MESSAGE Updating environment variables with key:IDF_MAINTAINER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.142
+!MESSAGE Executing C:\Espressif\python_env\idf5.2_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py --list-targets
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:17.142
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=LAPTOP, PROCESSOR_LEVEL=25, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, NVIDIAWHITELISTED=0x01, __COMPAT_LAYER=DetectorsAppHealth, PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, VXIPNPPATH=C:\Program Files (x86)\IVI Foundation\VISA\, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, IVIROOTDIR64=C:\Program Files\IVI Foundation\IVI\, USERNAME=adria, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, VXIPNPPATH64=C:\Program Files\IVI Foundation\VISA\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\adria\OneDrive, NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\, SHIM_MCCOMPAT=0x810000001, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\adria, PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD, IVIROOTDIR32=C:\Program Files (x86)\IVI Foundation\IVI\, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, OneDriveCommercial=C:\Users\adria\OneDrive - Universidad La Salle Bajío, LOCALAPPDATA=C:\Users\adria\AppData\Local, NIDAQmxSwitchDir=C:\Program Files (x86)\National Instruments\NI-DAQ\Switch\, USERDOMAIN=LAPTOP, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\adria\OneDrive - Universidad La Salle Bajío, APPDATA=C:\Users\adria\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\mingw64\bin;C:\Users\adria\AppData\Local\Programs\Python\Python310;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\adria\AppData\Local\Programs\Python\Python310\;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin, OS=Windows_NT, COMPUTERNAME=LAPTOP, PROCESSOR_REVISION=5000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\adria\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\adria, TMP=C:\Users\adria\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:18.238
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:18.239
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:18.239
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:18.657
+!MESSAGE idf_tools.py export output: WARNING: Error while accessing the ESP-IDF version file in the Python environment: [Errno 2] No such file or directory: 'C:\\Espressif\\python_env\\idf5.2_py3.11_env\\idf_version.txt'
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+ESP_ROM_ELF_DIR=C:\Espressif\tools\esp-rom-elfs\20230320\
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env
+ESP_IDF_VERSION=5.2
+PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+IDF_DEACTIVATE_FILE_PATH=C:\Users\adria\AppData\Local\Temp\tmp2_gx_2i4idf_12044
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:18.657
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:18.657
+!MESSAGE [C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:18.730
+!MESSAGE Executing C:\Espressif\python_env\idf5.2_py3.11_env/Scripts/python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:32:18.730
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=LAPTOP, PROCESSOR_LEVEL=25, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, NVIDIAWHITELISTED=0x01, __COMPAT_LAYER=DetectorsAppHealth, PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, VXIPNPPATH=C:\Program Files (x86)\IVI Foundation\VISA\, IDF_COMPONENT_STORAGE_URL=file:///C:/Espressif/registry;default, IVIROOTDIR64=C:\Program Files\IVI Foundation\IVI\, USERNAME=adria, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, VXIPNPPATH64=C:\Program Files\IVI Foundation\VISA\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\adria\OneDrive, NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\, SHIM_MCCOMPAT=0x810000001, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\adria, PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD, IVIROOTDIR32=C:\Program Files (x86)\IVI Foundation\IVI\, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, OneDriveCommercial=C:\Users\adria\OneDrive - Universidad La Salle Bajío, LOCALAPPDATA=C:\Users\adria\AppData\Local, NIDAQmxSwitchDir=C:\Program Files (x86)\National Instruments\NI-DAQ\Switch\, USERDOMAIN=LAPTOP, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\adria\OneDrive - Universidad La Salle Bajío, APPDATA=C:\Users\adria\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\mingw64\bin;C:\Users\adria\AppData\Local\Programs\Python\Python310;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\adria\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\adria\AppData\Local\Programs\Python\Python310\;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin, OS=Windows_NT, COMPUTERNAME=LAPTOP, PROCESSOR_REVISION=5000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\adria\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\adria, TMP=C:\Users\adria\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=12}
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:36:19.053
+!MESSAGE E:\Hidroponia_colectiva\Software\espressif
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:36:40.133
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:36:40.254
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.2.2/
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:36:48.068
+!MESSAGE ESP-IDF v5.2.2-dirty
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:20.888
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v5.2.2\examples\peripherals\gpio\generic_gpio
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:20.980
+!MESSAGE Project Name:: generic_gpio
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:20.980
+!MESSAGE Project:: P/generic_gpio
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:20.996
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s2-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:21.006
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s2-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:21.343
+!MESSAGE E:\Hidroponia_colectiva\Software\espressif\generic_gpio\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:21.348
+!MESSAGE Project Name:: generic_gpio
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:21.349
+!MESSAGE Project:: P/generic_gpio
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:21.360
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:21.369
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:21.522
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20240318 (2024-03-18-18:26)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:28.825
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:28.827
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:28.834
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:28.848
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:39:28.856
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:41:30.095
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:41:30.103
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:41:30.111
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:41:32.189
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:41:32.200
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-09-24 23:41:32.208
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-09-24 23:41:56.360
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.core.runtime.jobs.Job$2

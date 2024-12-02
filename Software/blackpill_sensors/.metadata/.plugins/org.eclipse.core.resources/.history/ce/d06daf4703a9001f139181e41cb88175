@@ -1,0 +1,100 @@
+/*
+ * utils.c
+ *
+ *  Created on: Nov 4, 2024
+ *      Author: Adrián Silva Palafox
+ *      Description: Utility functions for handling sensor and actuator topics,
+ *                   publishing MQTT messages, and providing a microsecond delay function.
+ *                   These functions are designed for embedded systems, specifically for
+ *                   communication over UART and sensor handling in an embedded environment.
+ */
+
+#ifndef SRC_UTILS_C_
+#define SRC_UTILS_C_
+
+#include "utils.h"
+
+/* Sensor Topics Definitions
+ * These are the predefined topics for the sensors that will be used in the system.
+ * They represent the various data points, such as water temperature, ambient temperature,
+ * and sensor readings for water pH, TDS (Total Dissolved Solids), and EC (Electrical Conductivity).
+ */
+const char* TOPIC_WATER_TEMPERATURE = "rack0/sens/water/temperature";
+const char* TOPIC_AMBIENT_TEMPERATURE = "rack0/sens/ambient/temperature";
+const char* TOPIC_AMBIENT_HUMIDITY = "rack0/sens/ambient/humidity";
+const char* TOPIC_WATER_PH = "rack0/sens/water/ph";
+const char* TOPIC_WATER_TDS = "rack0/sens/water/tds";
+const char* TOPIC_WATER_EC = "rack0/sens/water/ec";
+
+/* Actuator Topics Definitions
+ * These are the predefined topics for the actuators in the system.
+ * The actuators include watering systems, dosing pumps, lighting control,
+ * fan control, and humidifier control.
+ */
+const char* TOPIC_WATERING = "rack0/actu/watering0";
+const char* TOPIC_DOSE_PUMP0 = "rack0/actu/dose_pump0";
+const char* TOPIC_DOSE_PUMP1 = "rack0/actu/dose_pump1";
+const char* TOPIC_DOSE_PUMP2 = "rack0/actu/dose_pump2";
+const char* TOPIC_LIGHT_CONTROL = "rack0/actu/light/control";
+const char* TOPIC_FAN_CONTROL0 = "rack0/actu/fan/control0";
+const char* TOPIC_FAN_CONTROL1 = "rack0/actu/fan/control1";
+const char* TOPIC_HUMIDIFIER = "rack0/actu/humidifier";
+
+/* Function Definitions */
+
+/**
+ * @brief Delays execution for a specified number of microseconds.
+ *
+ * This function uses a hardware timer (TIM11) to provide a precise delay
+ * in microseconds. The counter of the timer is set to 0, and the function
+ * waits until the timer reaches the desired delay.
+ *
+ * @param us The number of microseconds to delay.
+ * @note This function assumes that TIM11 has been properly initialized in the system.
+ */
+void delay_us(uint16_t us)
+{
+    __HAL_TIM_SET_COUNTER(&htim11, 0);  // Set the counter value to 0
+    while (__HAL_TIM_GET_COUNTER(&htim11) < us);  // Wait for the counter to reach the specified delay
+}
+
+/**
+ * @brief Publishes a message with a given topic and floating-point value over UART.
+ *
+ * This function formats a message with the given topic and value, then
+ * transmits it over UART (USART1). The format is: <topic>*<value>\r\n.
+ *
+ * @param topic The MQTT topic to send.
+ * @param val The floating-point value to include in the message.
+ * @note The message will be transmitted in the format: "<topic>*<value>\r\n".
+ * @note This function includes a 3-second delay after transmitting the message.
+ */
+void publishTopic(const char* topic, float val)
+{
+    char uart_buf[70] = {0};
+    sprintf(uart_buf, "%s*%.2f\r\n", topic, val);  // Format the topic and value into the buffer
+
+    size_t len = strlen(uart_buf);  // Calculate the length of the message
+
+    HAL_UART_Transmit(&huart1, (uint8_t*)uart_buf, len, HAL_MAX_DELAY);  // Transmit the message over UART
+
+    HAL_Delay(3000);  // Add a 3-second delay (optional, can be adjusted based on system needs)
+}
+
+
+
+/*
+ *
+ */
+void reciveTopic(char* topic, float val)
+{
+	char *pos = strchr(str, ch);
+	    if (pos != NULL) {
+	        // Calculate the index (position) of the character
+	        return pos - str;
+	    }
+	    return -1;  // Character not found
+	}
+}
+
+#endif /* SRC_UTILS_C_ */

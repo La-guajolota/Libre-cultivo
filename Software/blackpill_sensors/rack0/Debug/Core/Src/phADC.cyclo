@@ -1,0 +1,5 @@
+../Core/Src/phADC.c:16:13:bubbleSort	5
+../Core/Src/phADC.c:45:13:linearRegression	1
+../Core/Src/phADC.c:62:6:initPHsensor	1
+../Core/Src/phADC.c:74:13:readADC	3
+../Core/Src/phADC.c:88:6:readPH	1

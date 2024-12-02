@@ -1,0 +1,10 @@
+13:40:17 **** Incremental Build of configuration Debug for project rack0 ****
+make -j12 all 
+arm-none-eabi-size  rack0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39788	    468	   2300	  42556	   a63c	rack0.elf
+Finished building: default.size.stdout
+ 
+
+13:40:18 Build Finished. 0 errors, 0 warnings. (took 254ms)
+

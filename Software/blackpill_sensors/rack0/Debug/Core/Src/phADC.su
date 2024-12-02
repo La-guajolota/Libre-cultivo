@@ -1,0 +1,5 @@
+../Core/Src/phADC.c:16:13:bubbleSort	40	static
+../Core/Src/phADC.c:45:13:linearRegression	64	static
+../Core/Src/phADC.c:62:6:initPHsensor	32	static
+../Core/Src/phADC.c:74:13:readADC	32	static
+../Core/Src/phADC.c:88:6:readPH	104	static
