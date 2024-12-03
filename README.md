@@ -1,9 +1,14 @@
-# Libre  cultivo🌾 
-# 🌱 Huerto Urbano de Precisión
+# **Libre Cultivo 🌾**  
+## 🌱 **Huerto Urbano de Precisión**
 
-Este repositorio contiene el desarrollo completo de un **sistema inteligente de monitoreo y control** para un huerto urbano basado en tecnologías de precisión. El objetivo principal es optimizar el crecimiento de cultivos hidroponónicos mediante el uso de sensores, actuadores y software de automatización.
+Este repositorio contiene el desarrollo completo de un **sistema inteligente de monitoreo y control** para un huerto urbano basado en tecnologías de precisión.  
+El objetivo principal es optimizar el crecimiento de cultivos hidropónicos mediante sensores, actuadores y software de automatización.  
 
-### Estructura del Sistema
+🔗 **[Ver playlist del funcionamiento del prototipo en YouTube](https://youtu.be/g-AVNDlKydo?si=g54WuJxGeLFtIjIJ)**
+
+---
+
+### **Estructura del Sistema**
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/2d077aaa-3d0d-493a-9d68-fc58760e8271" alt="Diagrama eléctrico del sistema" width="600">
@@ -25,13 +30,15 @@ El diagrama eléctrico muestra la configuración de los componentes principales 
 
 Esta configuración permite un control preciso del microclima y los parámetros hídricos necesarios para el óptimo desarrollo de las plantas.
 
-## 🚀 Funcionalidades
+---
+
+## 🚀 **Funcionalidades**
 
 - **Monitoreo en tiempo real** de parámetros clave:
   - pH del agua
   - Temperatura del agua y del ambiente
-  - Conductividad eléctrica (EC) (AÚN NO AGREGADO)
-  - Sólidos disueltos totales (TDS) (AÚN NO AGREGADO)
+  - Conductividad eléctrica (EC) *(AÚN NO AGREGADO)*
+  - Sólidos disueltos totales (TDS) *(AÚN NO AGREGADO)*
   - Humedad relativa
 - **Control automatizado** de:
   - Bomba de agua
@@ -39,26 +46,30 @@ Esta configuración permite un control preciso del microclima y los parámetros 
   - Sistemas de iluminación LED para crecimiento
   - Ventiladores y humidificador
 - **Interfaz gráfica** en Node-Red para visualización y configuración del sistema.
-- **Almacenamiento de histporicos** en google sheets almacenamos las lecturas.
-- **Control mobil** desde la aplicación gratuita (MQTT cliente) nos comunicamos con el cultivo. 
+- **Almacenamiento de históricos**: Datos registrados en Google Sheets.
+- **Control móvil**: Comunicación con el cultivo desde la aplicación gratuita MQTT Cliente.
 
-## 🛠️ Tecnologías Utilizadas
+---
 
-### Hardware
+## 🛠️ **Tecnologías Utilizadas**
+
+### **Hardware**
 - **Sensores**: pH, DHT22, BMP280
 - **Microcontroladores**: ESP32 / STM32
 - **Actuadores**: Bombas peristálticas, relés, ventiladores
-- **Circuitos**: Diseño y fabricación de PCBs personalizado 
+- **Circuitos**: Diseño y fabricación de PCBs personalizados
 
-### Software
+### **Software**
 - **Lado embebido**:
   - Lenguajes: C/C++
-  - Frameworks: FreeRTOS, Platformio, Arduino, STM32, LVGL
+  - Frameworks: FreeRTOS, PlatformIO, Arduino, STM32, LVGL
 - **Interfaz de usuario**:
   - Lenguajes: Python
   - Frameworks: Streamlit, MQTT, Node-RED
 
-## 📁 Estructura del Repositorio
+---
+
+## 📁 **Estructura del Repositorio**
 
 ```plaintext
 .
