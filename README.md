@@ -6,22 +6,20 @@ El objetivo principal es optimizar el crecimiento de cultivos hidropónicos medi
 
 ---
 
-## 📺 **Automatización Básica: Interfaz de Usuario con Node-Red y Registro de Datos en Google Sheets para Cultivos Urbanos**  
+## 📺 **Audiovisuales del funcionamiento**  
 
 ### **Descripción**  
-¡Bienvenidos a Libre Cultivo! 🌱 En este proyecto exploramos cómo integrar una interfaz de usuario básica con **Node-Red** y un sistema de registro histórico en **Google Sheets** para un cultivo urbano automatizado.  
+¡Bienvenidos a Libre Cultivo! 🌱  
 
-Podrás controlar actuadores esenciales como:  
-- **Luces LED de crecimiento**  
-- **Bombas de agua**  
-- **Humidificadores**  
-- **Ventiladores**  
+Esta playlist documenta el proceso y funcionamiento del sistema automatizado desarrollado para un huerto urbano de precisión. En los videos se exploran las siguientes áreas clave:  
+- **Monitoreo en tiempo real** de parámetros como pH, temperatura, y humedad.  
+- **Control automatizado** de actuadores esenciales: bombas de agua, luces LED, ventiladores y humidificadores.  
+- **Interfaz gráfica** con Node-Red para una experiencia de usuario intuitiva.  
+- **Almacenamiento de datos históricos** en Google Sheets, con acceso remoto y sin costo adicional.  
 
-Todo desde una interfaz gráfica intuitiva. Además, almacenamos datos históricos en Google Sheets, lo que permite un monitoreo remoto de variables clave sin costos adicionales, gracias a Google Cloud.  
+El contenido refleja los avances y resultados obtenidos, así como los retos superados durante la implementación de esta prueba de concepto. Es un punto de partida para futuras iteraciones hacia un sistema completamente inteligente, eficiente y accesible.  
 
-Este proyecto es una **prueba de concepto** que sienta las bases para un futuro cultivo urbano inteligente, eficiente y accesible para todos. Aprende con nosotros cómo la tecnología puede transformar la agricultura urbana.  
-
-🔗 **[Ver playlist del funcionamiento del prototipo en YouTube](https://youtu.be/g-AVNDlKydo?si=g54WuJxGeLFtIjIJ)**  
+🔗 **[Ver playlist del funcionamiento del prototipo en YouTube](https://www.youtube.com/watch?v=WTyhxuf8L80&t=177s)**  
 
 ---
 
@@ -71,10 +69,11 @@ Esta configuración permite un control preciso del microclima y los parámetros 
 ## 🛠️ **Tecnologías Utilizadas**  
 
 ### **Hardware**
-- **Sensores**: pH, DHT22, BMP280
+- **Sensores**: DS1820, pH módulo, DHT22, BMP280
 - **Microcontroladores**: ESP32 / STM32
 - **Actuadores**: Bombas peristálticas, relés, ventiladores
-- **Circuitos**: Diseño y fabricación de PCBs personalizados  
+- **Circuitos**: Diseño y fabricación de PCBs personalizados
+- **PCB**: Kicad  
 
 ### **Software**
 - **Lado embebido**:
@@ -91,9 +90,20 @@ Esta configuración permite un control preciso del microclima y los parámetros 
 
 ```plaintext
 .
-├── hardware/            # Esquemas y diseño de PCBs
-├── embedded/            # Código para microcontroladores
-├── dashboard/           # Aplicación Node-Red
-├── data/                # Scripts para Google Sheets
-├── docs/                # Documentación adicional
-└── README.md            # Descripción del proyecto
+├── hardware/            
+│   ├── Actuadores/       # Esquemas eléctricos relacionados con actuadores (bombas, ventiladores, LEDs)
+│   ├── Rack0/            # Diseños de PCBs y conexiones para el rack principal
+│   ├── Sensores/         # Esquemas eléctricos y configuraciones de sensores utilizados
+│   └── Simulaciones/     # Simulaciones de circuitos y pruebas virtuales
+├── software/            
+│   ├── blackpill_sensors/  # Código específico para sensores en la Blackpill
+│   ├── bluepill_actuadores/ # Código para control de actuadores con la Bluepill
+│   ├── Ejemplo_externos/   # Ejemplos de integración con librerías externas
+│   ├── espressif/          # Código relacionado con el ESP32
+│   ├── GUI/                # Interfaz gráfica para monitoreo y control
+│   ├── mqttESP32/          # Implementación de MQTT para el ESP32
+│   └── Python_desktop/     # Aplicaciones de escritorio en Python para control y monitoreo
+├── LICENSE/               # Licencia del proyecto
+└── README.md              # Descripción del proyecto
+
+
