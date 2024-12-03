@@ -3,9 +3,27 @@
 
 Este repositorio contiene el desarrollo completo de un **sistema inteligente de monitoreo y control** para un huerto urbano basado en tecnologías de precisión. El objetivo principal es optimizar el crecimiento de cultivos hidroponónicos mediante el uso de sensores, actuadores y software de automatización.
 
-## Estructura
-![Imagen de WhatsApp 2024-12-02 a las 22 03 41_78d4fdad](https://github.com/user-attachments/assets/2d077aaa-3d0d-493a-9d68-fc58760e8271)
+### Estructura del Sistema
 
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/2d077aaa-3d0d-493a-9d68-fc58760e8271" alt="Diagrama eléctrico del sistema" width="600">
+</div>
+
+El diagrama eléctrico muestra la configuración de los componentes principales del sistema:  
+
+- **Actuadores (6 en total):**
+  - **Bombas (3):**  
+    - Dos bombas dosifican nutrientes al tanque con la solución general.  
+    - La tercera bomba extrae esta solución para regar las plantas.  
+  - **Ventiladores (2):** Regulan la temperatura dentro del rack.  
+  - **Luces LED (1):** Proveen iluminación adecuada para el crecimiento de las plantas.
+
+- **Sensores (3 en total):**  
+  - **BME680:** Monitorea la temperatura y humedad en el ambiente del rack.  
+  - **Sensor de temperatura:** Mide la temperatura del líquido en el tanque de la solución general.  
+  - **Sensor de pH:** Verifica el nivel de pH de la solución en el tanque.
+
+Esta configuración permite un control preciso del microclima y los parámetros hídricos necesarios para el óptimo desarrollo de las plantas.
 
 ## 🚀 Funcionalidades
 
