@@ -3,6 +3,10 @@
 
 Este repositorio contiene el desarrollo completo de un **sistema inteligente de monitoreo y control** para un huerto urbano basado en tecnologías de precisión. El objetivo principal es optimizar el crecimiento de cultivos hidroponónicos mediante el uso de sensores, actuadores y software de automatización.
 
+## Estructura
+![Imagen de WhatsApp 2024-12-02 a las 22 03 41_78d4fdad](https://github.com/user-attachments/assets/2d077aaa-3d0d-493a-9d68-fc58760e8271)
+
+
 ## 🚀 Funcionalidades
 
 - **Monitoreo en tiempo real** de parámetros clave:
