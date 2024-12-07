@@ -2,8 +2,8 @@
 #include <PicoMQTT.h>
 
 // Configuración Wi-Fi
-const char* ssid = "Mega_2.4G_3512";          // Tu red Wi-Fi
-const char* password = "Ph5YcEUs"; // Tu contraseña Wi-Fi
+const char* ssid = "";          // Tu red Wi-Fi
+const char* password = ""; // Tu contraseña Wi-Fi
 
 // Puerto para el broker MQTT
 #define MQTT_PORT 1883

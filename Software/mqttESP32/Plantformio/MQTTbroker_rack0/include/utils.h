@@ -23,9 +23,9 @@
  * =======================
  * Define network and broker configurations.
  */
-#define WIFI_SSID "Mega_2.4G_3512" /**< WiFi network SSID */
-#define WIFI_PASSWORD "Ph5YcEUs"   /**< WiFi network password */
-#define MQTT_BROKER_PORT 1883      /**< MQTT broker listening port */
+#define WIFI_SSID ""          /**< WiFi network SSID */
+#define WIFI_PASSWORD ""      /**< WiFi network password */
+#define MQTT_BROKER_PORT 1883 /**< MQTT broker listening port */
 
 /* =======================
  * Enums

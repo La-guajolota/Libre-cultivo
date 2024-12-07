@@ -1,7 +1,7 @@
 #include <PicoMQTT.h>
 
-#define WIFI_SSID "Mega_2.4G_3512"
-#define WIFI_PASSWORD "Ph5YcEUs"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 String val = "";
 
 // Instancia del servidor MQTT
