@@ -1,0 +1,95 @@
+/*
+ * utils.h
+ *
+ *  Created on: Nov 4, 2024
+ *      Author: Adrián Silva Palafox
+ *      Description: Header file for utility functions and constants used in the embedded system.
+ *                   This file contains declarations for sensor and actuator topics, a
+ *                   microsecond delay function, and a function for publishing messages over UART.
+ *                   It also includes the necessary external definitions for hardware peripherals.
+ */
+
+#ifndef INC_UTILS_H_
+#define INC_UTILS_H_
+
+// INCLUDES
+#include "stm32f4xx_hal.h"  // HAL library for STM32F4
+#include <stdint.h>          // Standard integer types
+#include <stdio.h>           // Standard input/output for sprintf
+#include <string.h>          // Standard string handling functions (strlen, etc.)
+#include <stdbool.h>
+#include <stdlib.h>
+
+// DATATYPES
+typedef int8_t ERROR_CODE;
+
+// MACROS
+// (Currently no macros are defined, but space for future macros is reserved)
+#define ERROR_ -1           // Generic error code
+#define SUCCESS_ 0          // All good
+#define CHAR_NOT_FOUND_ -2	// A char value not found in a string
+#define UNKNOWN_TOPIC -3	// Not a topic of this rack
+
+// MQTT Topics Definitions
+/* Sensor Topics:
+ * These topics represent the MQTT communication topics for sensor data collection.
+ * The topics correspond to various sensors such as temperature, humidity, pH, TDS, and EC.
+ */
+extern const char* TOPIC_WATER_TEMPERATURE;  // Topic for water temperature sensor
+extern const char* TOPIC_AMBIENT_TEMPERATURE; // Topic for ambient temperature sensor
+extern const char* TOPIC_AMBIENT_HUMIDITY;   // Topic for ambient humidity sensor
+extern const char* TOPIC_WATER_PH;           // Topic for water pH sensor
+extern const char* TOPIC_WATER_TDS;          // Topic for water TDS (Total Dissolved Solids) sensor
+extern const char* TOPIC_WATER_EC;           // Topic for water EC (Electrical Conductivity) sensor
+
+/* Actuator Topics:
+ * These topics represent the MQTT communication topics for controlling actuators.
+ * The actuators include systems like watering, dosing pumps, lights, fans, and a humidifier.
+ */
+extern const char* TOPIC_WATERING;           // Topic for controlling watering system
+extern const char* TOPIC_DOSE_PUMP0;         // Topic for controlling dosing pump 0
+extern const char* TOPIC_DOSE_PUMP1;         // Topic for controlling dosing pump 1
+extern const char* TOPIC_DOSE_PUMP2;         // Topic for controlling dosing pump 2
+extern const char* TOPIC_LIGHT_CONTROL;      // Topic for controlling lighting system
+extern const char* TOPIC_FAN_CONTROL0;       // Topic for controlling fan system 0
+extern const char* TOPIC_FAN_CONTROL1;       // Topic for controlling fan system 1
+extern const char* TOPIC_HUMIDIFIER;         // Topic for controlling the humidifier
+
+// External Data Types Definitions
+/* Hardware peripheral handles for the system, including the timer and UART interfaces.
+ * These handles are defined in the corresponding source files and used for communication and timing functions.
+ */
+extern TIM_HandleTypeDef htim11;    // Timer handle for microsecond delay (TIM11)
+extern UART_HandleTypeDef huart1;  // UART handle for serial communication (USART1)
+extern ADC_HandleTypeDef hadc1;	   //Analog sensors reading
+
+// Function Prototypes
+
+/**
+ * @brief Delays execution for a specified number of microseconds.
+ *
+ * This function utilizes a hardware timer (TIM11) to create a precise delay in microseconds.
+ * It is particularly useful for time-sensitive operations in embedded systems.
+ *
+ * @param us The number of microseconds to delay.
+ */
+void delay_us(uint16_t us);
+
+/**
+ * @brief Publishes a message with a given topic and floating-point value over UART.
+ *
+ * This function formats the message as <topic>*<value>\r\n and transmits it over UART.
+ * The formatted message is transmitted using USART1, and the transmission is followed by
+ * a 3-second delay to ensure the message is properly sent and received.
+ *
+ * @param topic The MQTT topic to send.
+ * @param val The floating-point value to include in the message.
+ */
+void publishTopic(const char* topic, float val);
+
+/*
+ *
+ */
+ERROR_CODE reciveTopic(char	*topic, float *val);
+
+#endif /* INC_UTILS_H_ */

@@ -1,0 +1,31 @@
+/*
+ * phADC.h
+ *
+ *  Created on: Nov 19, 2024
+ *      Author: adria
+ */
+
+#ifndef INC_PHADC_H_
+#define INC_PHADC_H_
+
+//Includes
+#include "utils.h"
+
+//Macros
+#define BUFFER_A 4.01 //ph
+#define BUFFER_B 6.86 //ph
+#define BUFFER_C 9.18 //ph
+
+//Datatypes
+typedef struct{
+	float ph;
+	float m; //Slope
+	float b; //Intersection
+}PHsensor;
+
+//Prototypes
+void initPHsensor(PHsensor *sensor,float Apoint, float Bpoint, float Cpoint);
+
+void readPH(PHsensor *sensor);
+
+#endif /* INC_PHADC_H_ */

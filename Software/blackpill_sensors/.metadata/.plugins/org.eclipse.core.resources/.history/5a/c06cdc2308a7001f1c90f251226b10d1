@@ -1,0 +1,13 @@
+/*
+ * DHT22.h
+ *
+ *  Created on: Nov 19, 2024
+ *      Author: adria
+ */
+
+#ifndef SRC_DHT22_H_
+#define SRC_DHT22_H_
+
+
+
+#endif /* SRC_DHT22_H_ */

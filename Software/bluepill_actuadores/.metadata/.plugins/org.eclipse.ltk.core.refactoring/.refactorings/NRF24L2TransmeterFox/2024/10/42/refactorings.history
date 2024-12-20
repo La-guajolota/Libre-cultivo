@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;NRF24L2TransmeterFox/NRF24L01.ioc&apos; to &apos;NRF24L01TransmeterFox.ioc&apos;" description="Rename resource &apos;NRF24L01.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="NRF24L01.ioc" name="NRF24L01TransmeterFox.ioc" stamp="1728970905635" updateReferences="true"/>
+</session>

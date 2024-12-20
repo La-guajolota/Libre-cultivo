@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NEOPIXELS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NEOPIXELS2,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NRF24L01 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:adc_curvefitting Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:medidor_metereologico Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:rack0 Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NEOPIXELS\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NEOPIXELS\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NRF24L01\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NRF24L01\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:rack0\ Debug/activeLaunchMode=run

@@ -1,0 +1,13 @@
+/*
+ * bme680_defs.h
+ *
+ *  Created on: Nov 18, 2024
+ *      Author: adria
+ */
+
+#ifndef INC_BME680_DEFS_H_
+#define INC_BME680_DEFS_H_
+
+
+
+#endif /* INC_BME680_DEFS_H_ */

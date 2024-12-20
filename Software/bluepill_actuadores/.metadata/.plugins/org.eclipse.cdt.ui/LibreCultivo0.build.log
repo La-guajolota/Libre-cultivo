@@ -1,0 +1,10 @@
+22:13:05 **** Incremental Build of configuration Debug for project LibreCultivo0 ****
+make -j12 all 
+arm-none-eabi-size  LibreCultivo0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15668	     16	   1712	  17396	   43f4	LibreCultivo0.elf
+Finished building: default.size.stdout
+ 
+
+22:13:05 Build Finished. 0 errors, 0 warnings. (took 208ms)
+

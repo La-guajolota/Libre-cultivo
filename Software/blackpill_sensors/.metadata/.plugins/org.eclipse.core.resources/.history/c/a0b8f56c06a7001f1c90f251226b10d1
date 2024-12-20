@@ -1,0 +1,90 @@
+/*
+ * phADC.c
+ *
+ *  Created on: Nov 19, 2024
+ *      Author: adria
+ */
+#include "phADC.h"
+#include "utils.h"
+
+static void bubbleSort(float *arr, int size) {
+    bool swapped; // To track if any swap occurred
+    float *ptr1, *ptr2; // Pointers for element comparison and swapping
+
+    for (int i = 0; i < size - 1; i++) {
+        swapped = false; // Reset swap flag for this pass
+        ptr1 = arr; // Start from the beginning of the array
+
+        // Traverse up to the unsorted part of the array
+        for (int j = 0; j < size - i - 1; j++) {
+            ptr2 = ptr1 + 1; // Pointer to the next element
+            if (*ptr1 > *ptr2) {
+                // Swap the values
+                float temp = *ptr1;
+                *ptr1 = *ptr2;
+                *ptr2 = temp;
+                swapped = true; // Mark that a swap occurred
+            }
+            ptr1++; // Move to the next element
+        }
+
+        // If no two elements were swapped, array is sorted
+        if (!swapped) break;
+    }
+}
+
+// Function to compute the regression line using least squares
+static void linearRegression(float x1, float y1, float x2, float y2, float x3, float y3, float *m, float *b) {
+    // Sum up x, y, x^2, and x*y for the points
+    float sum_x = x1 + x2 + x3;
+    float sum_y = y1 + y2 + y3;
+    float sum_x2 = x1 * x1 + x2 * x2 + x3 * x3;
+    float sum_xy = x1 * y1 + x2 * y2 + x3 * y3;
+
+    // Number of points
+    int n = 3;
+
+    // Calculate slope (m) and intercept (b) using least squares formulas
+    *m = (n * sum_xy - sum_x * sum_y) / (n * sum_x2 - sum_x * sum_x);
+    *b = (sum_y - *m * sum_x) / n;
+}
+
+//los volts son los voltajes deacuerdo a los bufers de ph
+void initPHsensor(PHsensor *sensor,float Avolts, float Bvolts, float Cvolts){
+
+	float mBuffer;
+	float bBuffer;
+
+	linearRegression(BUFFER_A, Avolts, BUFFER_B, Bvolts, BUFFER_C, Cvolts, &mBuffer,&bBuffer);
+
+	sensor->m = mBuffer;
+	sensor->b = bBuffer;
+}
+
+//
+static readADC(float *adc, uint8_t samples){
+	//user define acconrding to the hardware and framework at use
+	for (int i = 0; i < samples; ++i) {
+		HAL_ADC_Start(hadc1);
+		HAL_ADC_PollForConversion(hadc1, HAL_MAX_DELAY);
+		uint32_t rawADC = HAL_ADC_GetValue(hadc1);
+		adc[i] = ((float)(rawADC/(ADCresolution)) * 3.3);
+	}
+}
+
+void readPH(PHsensor *sensor){
+
+	//10 sampligs
+	float adc[Samplings];
+
+	readADC(adc,Samplings);
+
+	// Sorting
+	bubbleSort(adc,Samplings);
+
+	//Media of the 3 middle points
+	float adcFiltered = (adc[4]+adc[5]+adc[6])/3.0;
+
+	// Real PH value accoding to its linnear charactization
+	sensor->ph = adcFiltered*sensor->b + sensor->b;
+}

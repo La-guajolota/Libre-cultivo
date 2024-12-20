@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;STM32F411CEUX_RAM.ld&apos; to &apos;NRF24L01&apos;" description="Move &apos;STM32F411CEUX_RAM.ld&apos; to &apos;NRF24L01&apos;" destination="/NRF24L01" element1="/NEOPIXELS2/STM32F411CEUX_RAM.ld" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1729009254633" updateReferences="true"/>
+</session>

@@ -1,0 +1,24 @@
+/*
+ * phADC.h
+ *
+ *  Created on: Nov 19, 2024
+ *      Author: adria
+ */
+
+#ifndef INC_PHADC_H_
+#define INC_PHADC_H_
+
+//Includes
+#include "utils.h"
+
+//Macros
+
+//Datatypes
+typedef struct{
+	float ph;
+}PHsensor;
+
+//Prototypes
+readPH();
+
+#endif /* INC_PHADC_H_ */

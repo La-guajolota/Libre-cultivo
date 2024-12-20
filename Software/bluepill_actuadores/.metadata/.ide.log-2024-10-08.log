@@ -1,0 +1,40 @@
+2024-10-09 00:04:12,281 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-09 00:04:15,864 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-09 00:04:24,185 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-09 00:04:28,933 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-09 00:04:33,907 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 758332528 Bytes (1073741824)
+2024-10-09 00:04:36,372 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 777479840 Bytes (1073741824)
+2024-10-09 00:04:37,629 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 844588704 Bytes (1073741824)
+2024-10-09 00:04:37,708 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2024-10-09 00:04:37,708 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-10-09 00:04:37,708 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-10-09 00:04:37,708 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-10-09 00:04:37,708 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-10-09 00:04:37,708 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-10-09 00:04:37,708 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-10-09 00:04:37,792 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\MXTmpFiles\license.tmp_save
+2024-10-09 00:04:37,849 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\MXTmpFiles\license.tmp
+2024-10-09 00:04:37,910 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\MXTmpFiles\gpio.tmp_save
+2024-10-09 00:04:37,962 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\MXTmpFiles\gpio.tmp
+2024-10-09 00:04:38,086 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Src\stm32f1xx_it.c_save
+2024-10-09 00:04:38,192 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Src\stm32f1xx_it.c
+2024-10-09 00:04:38,197 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Inc\stm32f1xx_it.h_save
+2024-10-09 00:04:38,244 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Inc\stm32f1xx_it.h
+2024-10-09 00:04:38,298 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Src\stm32f1xx_hal_msp.c_save
+2024-10-09 00:04:38,372 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Src\stm32f1xx_hal_msp.c
+2024-10-09 00:04:38,381 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\MXTmpFiles\system.tmp_save
+2024-10-09 00:04:38,433 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\MXTmpFiles\system.tmp
+2024-10-09 00:04:38,484 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-10-09 00:04:38,558 [INFO] CodeEngine:335 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Inc\stm32f1xx_hal_conf.h
+2024-10-09 00:04:38,578 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-10-09 00:04:38,578 [WARN] CodeGenerator:3951 - IP not found : null
+2024-10-09 00:04:38,632 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Inc\main.h_save
+2024-10-09 00:04:38,692 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Inc\main.h
+2024-10-09 00:04:38,710 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Src\main.c_save
+2024-10-09 00:04:38,813 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\bluepill_actuadores\LibreCultivo0\Core\Src\main.c
+2024-10-09 00:04:39,870 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 911mS.
+2024-10-09 00:04:39,871 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-10-09 00:04:39,925 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-10-09 00:04:40,500 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 629mS.
+2024-10-09 00:04:40,502 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-10-09 00:04:40,503 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.

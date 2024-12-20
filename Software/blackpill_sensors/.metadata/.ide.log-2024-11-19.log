@@ -1,0 +1,127 @@
+2024-11-20 00:06:41,117 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,184 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,185 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,186 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,186 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,186 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,186 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:06:41,205 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,248 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,248 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,248 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,249 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,272 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,345 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,438 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:17,438 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:17,438 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:17,438 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:17,471 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:17,471 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:17,504 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:17,505 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,523 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,524 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,524 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,524 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,524 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,541 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,567 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:17,583 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-20 00:28:30,164 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 259181512 Bytes (720371712)
+2024-11-20 00:28:31,552 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 296526216 Bytes (720371712)
+2024-11-20 00:28:34,404 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 380816328 Bytes (720371712)
+2024-11-20 00:28:34,848 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-11-20 00:28:34,848 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-11-20 00:28:34,848 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-11-20 00:28:34,849 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-11-20 00:28:34,849 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-11-20 00:28:34,849 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-11-20 00:28:34,849 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-11-20 00:28:34,849 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2024-11-20 00:28:34,850 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-11-20 00:28:34,858 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:34,858 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-11-20 00:28:35,068 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\MXTmpFiles\license.tmp_save
+2024-11-20 00:28:35,541 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\MXTmpFiles\license.tmp
+2024-11-20 00:28:35,656 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\MXTmpFiles\gpio.tmp_save
+2024-11-20 00:28:35,783 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\MXTmpFiles\gpio.tmp
+2024-11-20 00:28:37,472 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Src\stm32f4xx_it.c_save
+2024-11-20 00:28:37,595 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Src\stm32f4xx_it.c
+2024-11-20 00:28:37,618 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Inc\stm32f4xx_it.h_save
+2024-11-20 00:28:37,731 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Inc\stm32f4xx_it.h
+2024-11-20 00:28:37,848 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Src\stm32f4xx_hal_msp.c_save
+2024-11-20 00:28:37,992 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Src\stm32f4xx_hal_msp.c
+2024-11-20 00:28:38,010 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\MXTmpFiles\system.tmp_save
+2024-11-20 00:28:38,072 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\MXTmpFiles\system.tmp
+2024-11-20 00:28:38,145 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-11-20 00:28:38,239 [INFO] CodeEngine:335 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Inc\stm32f4xx_hal_conf.h
+2024-11-20 00:28:38,278 [WARN] IPConfigManager:3554 - IP not found : TIM
+2024-11-20 00:28:38,279 [WARN] CodeGenerator:4002 - IP not found : null
+2024-11-20 00:28:38,359 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Inc\main.h_save
+2024-11-20 00:28:38,464 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Inc\main.h
+2024-11-20 00:28:38,500 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Src\main.c_save
+2024-11-20 00:28:38,672 [INFO] CodeEngine:279 - Generated code: E:\Hidroponia_colectiva\Software\blackpill_sensors\rack0\Core\Src\main.c
+2024-11-20 00:28:40,246 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 1410mS.
+2024-11-20 00:28:40,585 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-11-20 00:28:40,664 [INFO] ConfigFileManager:1531 - The Die is : DIE431
+2024-11-20 00:28:40,683 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-11-20 00:28:40,716 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-11-20 00:28:40,730 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-11-20 00:28:40,773 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-11-20 00:28:40,812 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-11-20 00:28:40,830 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST

@@ -1,0 +1,14 @@
+Total sizes:
+Used static IRAM:   16383 bytes (      1 remain, 100.0% used)
+      .text size:   15356 bytes
+   .vectors size:    1027 bytes
+Used stat D/IRAM:   56359 bytes ( 289497 remain, 16.3% used)
+      .data size:   10668 bytes
+      .bss  size:    2248 bytes
+      .text size:   43443 bytes
+Used Flash size :  166355 bytes
+           .text:  120387 bytes
+         .rodata:   45712 bytes
+Total image size:  236849 bytes (.bin may be padded larger)
+C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/\components\partition_table\gen_esp32part.py E:\Hidroponia_colectiva\Software\espressif\generic_gpio\build\partition_table\partition-table.bin
+Total time taken to build the project: 89,498 ms
